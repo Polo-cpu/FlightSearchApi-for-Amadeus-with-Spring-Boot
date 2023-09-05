@@ -82,8 +82,8 @@ public class FlightService {
     public List<Flight> findAllFlights(){
         return flightDal.findAll();
     }
-    public Flight getFlightById(long cityId){
-        return flightDal.findById(cityId).get();
+    public Flight getFlightById(long flightId){
+        return flightDal.findById(flightId).get();
     }
 
     public void deleteFlightById(long flightId){
